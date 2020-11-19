@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+jupyterlab = "*"
+seaborn = "*"
+google-cloud-bigquery = "*"
+google-cloud-bigquery-storage = "*"
+google-auth = "*"
+tqdm = "*"
+pandas-gbq = "*"
+yapf = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+gspread = "*"
+oauth2client = "*"
+
+[requires]
+python_version = "3.7"
